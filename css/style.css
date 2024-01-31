@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;;
+}
+
+html {
+    font-size: 16px;
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    padding: 15px;
+    width: 18rem;
+    border-radius: 10px;
+    transition-duration: .5s;
+}
+
+.card-main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+.card-main--header{
+    color: white;
+    margin-top: 20px;
+}
+
+.card-main--header:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.crad-main-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card-main--img--main {
+    width: 16rem;
+    border-radius: 10px;
+}
+
+.card-hover-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: hsla(178, 100%, 50%, 0.503);
+    top:0;
+    bottom: 0;
+    right:0;
+    left: 0;
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0;
+    transition-duration: .5s;
+}
+
+.card-hover-img:hover {
+    opacity: 1;
+    
+}
+
+
+
+.card-main--p {
+    color: hsl(215, 51%, 70%);
+    margin: 15px 0px;
+}
+
+.card-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+}
+
+.card-price-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+}
+
+.card-price {
+    padding-left: 5px;
+}
+
+.card-time-left-con {
+    display: flex;
+    margin: 2px;
+    color: hsl(215, 51%, 70%);
+    
+}
+
+
+.card-time-left--img {
+    padding-right: 5px;
+}
+
+.creation-info {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.creation-info--img {
+    width: 2rem;
+    margin-right: 15px;
+    border: .5px solid white;
+    border-radius: 100%;
+}
+
+.creation-info--p {
+    color: hsl(215, 51%, 70%);
+}
+
+.creation-info--p span {
+    color: white;
+}
+
+.creation-info--p span:hover{
+    color: hsl(178, 100%, 50%);
+}
