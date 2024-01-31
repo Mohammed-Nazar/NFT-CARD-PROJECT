@@ -23,6 +23,7 @@ html {
     width: 18rem;
     border-radius: 10px;
     transition-duration: .5s;
+    box-shadow: -5px -2px 5px hsl(217, 63%, 14%);
 }
 
 .card-main {
